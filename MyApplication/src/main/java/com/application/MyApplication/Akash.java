@@ -2,6 +2,12 @@ package com.application.MyApplication;
 
 public class Akash {
   String getName (){
-      return "Akash";
+      int num = 10;
+      if(num == 10){
+          return "Akash ";
+      }
+
+      return null;
+
   }
 }
